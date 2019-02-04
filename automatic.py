@@ -37,8 +37,8 @@ base_dir = '/sys/bus/w1/devices/'  # these three lines set the file path for the
 device_folder = glob.glob(base_dir + '28*')[0]
 device_file = device_folder + '/w1_slave'
 # Twilio setup, this is for making text messages get this information from your twilio account
-account_sid = "ACf15d10f63afb6d7d24e5e2e1ee3831bd"
-auth_token = "9681cd92ade54cac4100a857c17998b1"
+account_sid = ""
+auth_token = ""
 client = TwilioRestClient(account_sid, auth_token)
 my_phone_number = "+14023187432"
 twilio_phone_number = "+13602343384"
